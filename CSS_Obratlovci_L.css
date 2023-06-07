@@ -1,0 +1,1022 @@
+
+/* #region -- Body */
+
+body {
+    font-family: Arial;
+
+}
+
+/* #endregion */
+
+
+/* #region -- Rozdělění stránky*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* #endregion */
+
+
+/* #region -- Hlavička */
+
+.one { 
+    grid-column: 1 / 3;
+    grid-row: 1;
+    width: 100%;
+    background-color: khaki;
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid black;
+
+}   
+    
+/* #endregion */
+
+
+/* #region -- Rozcestník na boku */
+
+.two {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    text-align: center;
+    font-size: 26px;
+    border-right: 1px solid black;
+    
+} 
+  
+  
+aside {
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 0px;
+    background-color: khaki;
+    
+    width: 290px;
+    
+}
+  
+  
+aside > div {
+    position: sticky;
+    top: 60px; 
+    padding: 0px;
+    margin: 0px;
+    padding-left: 40px;
+    padding-top: 20px;
+  
+}
+  
+  
+aside > div > ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+}
+  
+  
+aside  > div > ul > li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: beige;
+    border-radius: 5px;
+    width: 215px;
+    
+}
+  
+  
+aside  > div > ul > li:hover {
+    background-color: lightgray;
+    color: black;
+  
+}
+  
+  
+aside  > div > ul > li > a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  
+} 
+  
+  
+.O_hide_1 {
+    display: none;
+    font-size: 20px;
+  
+}
+  
+  
+.O_hide_1 > ul {
+    list-style-type: circle;
+    margin-top: 3px;
+  
+}
+  
+  
+.O_hide_1 > ul > li{
+    padding: 5px;
+    margin: 5px;
+    background-color: beige;
+    border-radius: 5px;
+    width: 215px;
+    
+}
+  
+  
+.O_hide_1 > ul > li:hover{
+    background-color: lightgray;
+    color: black;
+    
+}
+  
+  
+.O_hide_1 > ul > li > a{
+    color: black;
+    text-decoration: none;
+    
+}
+  
+  
+.O_hide_2 {
+    display: none;
+    font-size: 20px;
+  
+}
+  
+  
+.O_hide_2 > ul {
+    list-style-type: circle;
+    margin-top: 3px;
+  
+}
+  
+  
+.O_hide_2 > ul > li{
+    padding: 5px;
+    margin: 5px;
+    background-color: beige;
+    border-radius: 5px;
+    width: 215px;
+    
+}
+  
+  
+.O_hide_2 > ul > li:hover{
+    background-color: lightgray;
+    color: black;
+    
+}
+  
+  
+.O_hide_2 > ul > li > a{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+  
+/* #endregion */
+
+
+/* #region -- Obsah */
+
+.three{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    top: 20px;
+
+}
+.three > p{
+    font-size: 20px;
+}
+h1{
+
+    font-size: 30px;
+    text-decoration: underline black;
+
+}
+h2{
+
+    font-size: 25;
+}
+
+/* #endregion */
+
+
+/* #region -- Patička */
+
+.four{
+
+    grid-column: 1/3;
+    grid-row: 4;
+    border-top: 1px solid black;
+    text-align: center;
+    padding-top: 0px;
+    background-color: khaki;
+    z-index: 1;
+    font-size: 18px;
+
+}
+
+footer > a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    
+}
+
+footer > a:hover {
+    color: black;
+}
+
+/* #endregion */
+
+
+/* #region -- Rozcestník pod Hlavičkou */
+
+.five {
+    grid-column: 1/3;
+    grid-row: 2;
+    background: khaki;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 35px;
+    position: sticky;
+    top: 0px;
+
+}
+
+td{
+    width: 250px;
+
+}
+    
+td:hover {
+    background-color: lightgoldenrodyellow;
+
+}
+
+.OB {
+    border-right: 1px solid black;
+
+}
+td > a {
+text-decoration: none;
+color: black;
+width: 250px;
+height: 20px;
+
+
+}
+
+/* #endregion */
+
+
+/* #region -- Mobil a Tablet */
+
+
+.six{
+    display: none;
+
+}
+.five_T{
+
+    
+        display: none;
+        grid-column: 1/3;
+            grid-row: 2;
+            background: khaki;
+            width: 100%;
+            z-index: 1;
+            border-bottom: 1px solid black;
+            text-align: center;
+            font-size: 35px;
+        
+        
+}
+.one_M{
+    display: none;
+}
+.Znak_NM{
+    display: none;
+}
+.SVG_N_M{
+
+    display: none;
+}
+.Okno_nastaveni_M{
+    display: none;
+}.three_M{
+
+    display: none;
+    font-size: 20px;
+    background-color: white;
+  }
+
+/* #endregion */
+
+
+/* #region -- Nastavení */
+
+svg {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+  
+}
+  
+ellipse {
+    fill: white;
+    stroke: black;
+    display: block;
+  
+}
+  
+svg > image {
+    width: 40px;
+    height: 40px;
+  
+}
+  
+.SVG_Nastaveni{
+    z-index: 1;
+  
+}
+  
+  
+.Okno_nastaveni {
+    display: none;
+    z-index: 2;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: black;
+    height: 120px;
+    width: 200px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+  
+}
+  
+.Okno_nastaveni > p{
+  margin-left: 6px;
+  
+}
+  
+.l{
+  width: 30px;
+  
+}
+  
+.SVG_Motiv{
+    position: fixed;
+    right: 70px;
+    bottom: 32px;
+  
+}
+  
+.SVG_Panel{
+    position: fixed;
+    right: 40px;
+    bottom: 68px;
+  
+}
+  
+.RECT_Motiv{
+    fill: white;
+    stroke: black;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    border-radius: 15px;
+  
+}
+  
+.CIRCLE_Motiv{
+    fill: black;
+  
+}
+  
+  .RECT_Panel{
+    fill: white;
+    stroke: black;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    border-radius: 15px;
+    
+}
+    
+.CIRCLE_Panel {
+    fill: black;
+  
+}
+
+/* #endregion */
+
+
+/* #region -- Obrázky*/
+
+img{
+
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+}
+
+/* #endregion */
+
+
+@media (max-width: 1024px)
+{
+
+/* #region -- Tablet*/
+
+.two{
+    display: none;
+    z-index: 1;
+    
+}
+
+.five{
+    display: none;
+}
+.five_T{
+display: block;
+}
+.SVG_Nastaveni{
+display: none;
+
+}
+.Okno_nastaveni{
+    display: none;
+}
+.SVG_N_M{
+
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 5;
+    
+    width: 70px;
+    height: 70px;
+}
+.IMG_N_M {
+
+    width: 75px;
+    height: 70px;
+}
+.Okno_nastaveni_M{
+
+    
+
+    position: fixed;
+  top: 30px;
+  right: 30px;
+  display: none;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  z-index: 6;
+  width: 160px;
+  height: 60px;
+
+}
+.Okno_nastaveni_M > p{
+    margin-left: 6px;
+    padding-top: 4px;
+    
+  }
+.SVG_Motiv{
+
+    position: fixed;
+    top: 49px;
+    right: 33px;
+}
+.RECT_Motiv_M{
+    fill: white;
+    stroke: black;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    border-radius: 15px;
+  }
+.three{
+
+    grid-column: 1/3;
+    z-index: 2;
+    
+    
+}
+
+td{
+    width: 250px;
+
+}
+    
+td:hover {
+    background-color:lightgoldenrodyellow;
+
+}
+td > a {
+    text-decoration: none;
+    color: black;
+    width: 250px;
+}
+.OB {
+    border: 0px;
+}
+/* #endregion */
+
+}
+
+@media (max-width: 666px)
+{
+
+/* #region -- Telefon*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px;
+    padding: 0px;
+  
+  }
+  
+  .one{
+    display: none;
+  }
+  .two{
+  
+    display: none;
+  }
+  .three{
+
+    display: none;
+  }
+  .three_M{
+
+    display: block;
+  }
+  .five{
+    display: none;
+  }
+
+  .five_T{
+    display: none;
+    background-color: pink;
+  }
+  .one_M{
+    display: block;
+}
+.Znak_NM{
+    display: block;
+}
+.SVG_N_M{
+
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.SVG_Nastaveni{
+
+    display: none;
+}
+.Okno_Nastaveni{
+
+    display: none;
+}
+
+
+  .one_M{
+    font-size: 47px;
+    width: 100%;
+    background-color: khaki;
+    color: black;
+    text-align: center;
+    height: 22px;
+    grid-column: 1/3;
+    grid-row: 1;
+    padding-top: 5px;
+    z-index: 2;
+    padding-top: 10px;
+  }
+  
+  
+  .Znak_NM {
+    grid-row: 2;
+  
+    grid-column: 1/3;
+    text-align: left;
+    width: 100%;
+    height: 35px;
+    font-size: 30px;
+    background-color: khaki;
+    z-index: 1;
+    border-bottom: 1px solid black;
+  
+  }
+  
+  .Znak_NM > a {
+  
+    padding-left: 15px;
+  }
+  
+  .six{
+  grid-column: 1/2;
+  grid-row: 3;
+  display: none;
+  background-color: khaki;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border: 1px solid Black;
+  z-index: 2;
+  height: 260px;
+  border-top: 0px;
+  }
+  
+  .six > ul {
+  list-style-type: none;
+  left: 10px;
+  
+  font-size: 20px;
+  
+  position: relative;
+  left: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  }
+  
+  .six > ul >li{
+  
+  height: 24px;
+  margin: 4px;
+  background-color: beige;
+  border-radius: 5px;
+  text-align: center;
+  
+  
+  
+  }
+  
+  .six > ul >li > a{
+  
+    text-decoration: none;
+    color: black;
+    }
+  
+  
+    .three_M{
+      grid-column: 1/3;
+      grid-row: 3/4;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      top: 20px;
+      z-index: 1;
+  
+  }
+  
+  h1{
+
+    text-decoration: none;
+  }
+  
+  
+  
+  
+    .four{
+  
+      grid-column: 1/3;
+      grid-row: 4;
+      border-top: 1px solid black;
+      text-align: center;
+      padding-top: 0px;
+      background-color: khaki;
+      z-index: 1;
+      font-size: 18px;
+      
+  
+  }
+  
+  footer > a {
+      text-align: center;
+      color: black;
+      text-decoration: none;
+      
+  }
+  
+  footer > a:hover {
+      color: black;
+  }
+  
+  
+  .Charakteristika_M{
+  display: none;
+  
+  }
+  
+  .SO_M{
+    display: none;
+    
+  }
+  
+  .EV_M{
+    display: none;
+    
+  }
+  
+  .TA_M{
+    display: none;
+    
+  }
+  
+  
+  h1 {
+  
+  background-color: lightgoldenrodyellow;
+  border: 1px solid black;
+  width: 100%;
+  margin: 0px;
+  padding-left: 5px;
+  
+  }
+  
+  #O_U{
+  
+    background-color: white;
+    border: none;
+  
+  }
+  
+  .IMG_N_M{
+  
+    width: 55px;
+    height: 50px;
+  
+  
+  }
+  
+  .SVG_N_M{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  z-index: 3;
+  
+  }
+  
+  
+  .Okno_nastaveni_M{
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  display: none;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  z-index: 4;
+  width: 160px;
+  height: 60px;
+  }
+  
+  
+  .Okno_nastaveni_M > p{
+    margin-left: 6px;
+    padding-top: 3px;
+    
+  }
+    
+    
+  .SVG_Motiv{
+      position: fixed;
+      right: 25px;
+      top: 34px;
+    
+  }
+
+  .RECT_Motiv_M{
+    fill: white;
+    stroke: black;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    border-radius: 15px;
+  }
+
+  
+
+/* #endregion */
+
+
+/* #region -- Savci*/
+
+
+
+.Sa_1{
+
+    display: none;
+}
+
+.Sa_2{
+
+    display: none;
+}.Sa_3{
+
+    display: none;
+}.Sa_4{
+
+    display: none;
+}.Sa_5{
+
+    display: none;
+}.Sa_6{
+
+    display: none;
+}
+
+/* #endregion*/
+
+
+/* #region -- Plazi*/
+
+
+
+.Pl_1{
+
+    display: none;
+}
+
+.Pl_2{
+
+    display: none;
+}.Pl_3{
+
+    display: none;
+}.Pl_4{
+
+    display: none;
+}.Pl_5{
+
+    display: none;
+}
+
+/* #endregion*/
+
+
+/* #region -- Ryby*/
+
+
+
+
+
+
+.Ry_1{
+
+    display: none;
+}
+
+.Ry_2{
+
+    display: none;
+}.Ry_3{
+
+    display: none;
+}.Ry_4{
+
+    display: none;
+}
+
+/* #endregion*/
+
+
+/* #region -- Obojživelníci*/
+
+
+
+.Ob_1{
+
+    display: none;
+}
+
+.Ob_2{
+
+    display: none;
+}.Ob_3{
+
+    display: none;
+}.Ob_4{
+
+    display: none;
+}
+
+/* #endregion*/
+
+
+/* #region -- Ptáci*/
+
+
+
+.Pt_1{
+
+    display: none;
+}
+
+.Pt_2{
+
+    display: none;
+}.Pt_3{
+
+    display: none;
+}.Pt_4{
+
+    display: none;
+}.Pt_5{
+
+    display: none;
+}
+
+/* #endregion*/
+
+
+/* #region -- Kruhoústí*/
+
+
+
+.Kr_1{
+
+    display: none;
+}
+
+.Kr_2{
+
+    display: none;
+}
+
+/* #endregion*/
+
+
+/* #region -- Paryby*/
+
+
+
+.Pa_1{
+
+    display: none;
+}
+
+.Pa_2{
+
+    display: none;
+}.Pa_3{
+
+    display: none;
+}
+
+/* #endregion*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
